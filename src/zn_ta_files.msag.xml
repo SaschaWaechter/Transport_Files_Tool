@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZN_TA_FILES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>TA &amp;1 wurde noch nicht freigegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Bitte einen Transportauftrag auswählen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Bitte Cofile und Datafile auswählen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Cofiles beginnen mit K</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Datafiles beginnen mit R</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Files erfolgreich übernommen -&gt; &quot;Weiter&quot; klicken für Upload</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Upload nicht vollständig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Achtung Transportfiles bestehen bereits</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZN_TA_FILES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Cofile und Datafile sind sind ab zweiter Stelle nicht gleich benannt</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

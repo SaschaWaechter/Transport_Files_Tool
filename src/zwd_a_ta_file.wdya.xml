@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WDYA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <APP>
+    <APPLICATION_NAME>ZWD_A_TA_FILE</APPLICATION_NAME>
+    <COMPONENT>FPM_GAF_COMPONENT</COMPONENT>
+    <STARTUP_VIEW>FPM_WINDOW</STARTUP_VIEW>
+    <STARTUP_PLUG>DEFAULT</STARTUP_PLUG>
+    <DISPLAY_NAME>ZWD_A_TA_FILE</DISPLAY_NAME>
+   </APP>
+   <PROPERTIES>
+    <WDY_APP_PROPERTY>
+     <APPLICATION_NAME>ZWD_A_TA_FILE</APPLICATION_NAME>
+     <NAME>WDCONFIGURATIONID</NAME>
+     <VALUE>ZWD_AC_TA_FILE</VALUE>
+    </WDY_APP_PROPERTY>
+   </PROPERTIES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

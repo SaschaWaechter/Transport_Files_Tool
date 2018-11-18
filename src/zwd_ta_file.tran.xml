@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZWD_TA_FILE</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZWD_TA_FILE</TCODE>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>ZWD_TA_FILE</TCODE>
+    <TTEXT>IMP/EXP TA Files</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZWD_TA_FILE</TCODE>
+    <PARAM>/*WDYID STARTMODE=BROWSER;WDCONFIGURATIONID=ZWD_AC_TA_FILE;APPLICATION=ZWD_A_TA_FILE;</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>
