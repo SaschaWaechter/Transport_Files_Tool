@@ -35,6 +35,13 @@ CLASS ZCL_FDR_TA_FILES_INSCRN IMPLEMENTATION.
 
   METHOD IF_FPM_GUIBB_FORM~GET_DATA.
 
+    MS_INSCRN-TEXT1 = 'Mit diesem Tool können Sie Co-/Datafiles zu Transportaufträgen importieren/exportieren'.
+    MS_INSCRN-text2 = 'Transportfiles exportieren'.
+    MS_INSCRN-TEXT3 = 'Transportfiles importieren'.
+
+    CS_DATA = MS_INSCRN.
+    EV_DATA_CHANGED = abap_true.
+
   ENDMETHOD.
 
 
@@ -50,12 +57,12 @@ CLASS ZCL_FDR_TA_FILES_INSCRN IMPLEMENTATION.
     et_action_definition = VALUE #(
                                     (
                                      id         = 'START_EXP'
-                                     text       = 'START_EXP'
+                                     text       = 'Transportauftrag exportieren'
                                      enabled    = abap_true
                                     )
                                     (
                                      id         = 'START_IMP'
-                                     text       = 'START_IMP'
+                                     text       = 'Transportauftrag importieren'
                                      enabled    = abap_true
                                     )
                                    ).

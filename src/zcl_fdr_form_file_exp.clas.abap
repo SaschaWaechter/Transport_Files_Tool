@@ -106,6 +106,7 @@ CLASS ZCL_FDR_FORM_FILE_EXP IMPLEMENTATION.
     ls_field_description-name = 'FILE_DOWNLOAD'.
     APPEND ls_field_description TO et_field_description.
     ls_action_definition-id = 'DOWNLOAD'.
+    LS_ACTION_DEFINITION-TEXT = 'Download'.
     ls_action_definition-enabled = abap_true.
     APPEND ls_action_definition TO et_action_definition.
 
