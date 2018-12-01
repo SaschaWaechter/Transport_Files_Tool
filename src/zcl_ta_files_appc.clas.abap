@@ -13,7 +13,7 @@ public section.
         io_gaf TYPE REF TO if_fpm_gaf
       RAISING
         cx_fpm_floorplan.
-    METHODS system_und_mandant_setzen.
+    METHODS title_system_mandant.
 ENDCLASS.
 
 
@@ -31,14 +31,14 @@ CLASS ZCL_TA_FILES_APPC IMPLEMENTATION.
     ENDTRY.
 
 
-    system_und_mandant_setzen( ).
+    title_system_mandant( ).
 
 
 
   ENDMETHOD.
 
 
-  METHOD SYSTEM_UND_MANDANT_SETZEN.
+  METHOD title_system_mandant.
 
     "System und Mandant setzen
     DATA(lo_fpm) = cl_fpm_factory=>get_instance( ).
@@ -48,7 +48,7 @@ CLASS ZCL_TA_FILES_APPC IMPLEMENTATION.
         ev_title         = DATA(l_title)
     ).
     IF NOT l_title CS sy-sysid AND NOT l_title CS sy-mandt.
-      lo_idr->set_application_title( EXPORTING iv_title = |{ l_title } [{ sy-sysid }/{ sy-mandt }]| ).
+      lo_idr->set_application_title( EXPORTING iv_title = |Importieren/Exportieren von Co-/Datafiles von Transportaufträgen [{ sy-sysid }/{ sy-mandt }]| ).
     ENDIF.
 
   ENDMETHOD.

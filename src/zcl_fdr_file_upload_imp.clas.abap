@@ -153,14 +153,14 @@ CLASS ZCL_FDR_FILE_UPLOAD_IMP IMPLEMENTATION.
     eo_field_catalog = CAST cl_abap_structdescr( cl_abap_typedescr=>describe_by_data( p_data = ls_file_upl_dialog ) ).
 
     et_field_description = VALUE #(
-                                    ( name = 'FILE_DATA_C'  file_name_ref = 'FILE_NAME_REF_C' mime_type_ref = 'FILE_MIME_TYPE_REF_C' )
-                                    ( name = 'FILE_DATA_D'  file_name_ref = 'FILE_NAME_REF_D' mime_type_ref = 'FILE_MIME_TYPE_REF_D' )
+                                    ( name = 'FILE_DATA_C'  file_name_ref = 'FILE_NAME_REF_C' mime_type_ref = 'FILE_MIME_TYPE_REF_C' label_text = 'Cofile' )
+                                    ( name = 'FILE_DATA_D'  file_name_ref = 'FILE_NAME_REF_D' mime_type_ref = 'FILE_MIME_TYPE_REF_D' label_text = 'Datafile' )
                                    ).
 
     et_action_definition = VALUE #(
                                     (
                                      id         = 'FILE_UPLOAD'
-                                     text       = 'FILE_UPLOAD'
+                                     text       = 'Files hochladen'
                                      enabled    = abap_true
                                     )
                                    ).
